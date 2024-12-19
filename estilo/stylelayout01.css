@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --cor1: #0477BF;
+    --cor2: #F2A007;
+    --cor3: #F27D16;
+    --cor4: #F25922;
+    --cor5: #B6D7DF;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    flex-basis: 100vw;
+    /*flex-basis é o tamanho inicial da tela *
+    devemos sempre usa vw que é viport,width *(e o comprimento da tela)/
+
+    flex-grow: 1;
+    /*flex-grow tem habilidade d e fazer um item almentar seu tamanho*/
+    
+    flex-shrink: 1;
+    /*flex-shrink tem habilidade de fazer um item redusir o  seu tamanho*/
+    background: var(--cor1);
+}
+
+header{
+    display: flex;
+    margin: 10px;
+    flex: 1 1 100vw;
+    background: var(--cor2);
+}
+
+nav{
+    display: flex;
+    margin: 10px;
+    flex: 1 1 100vw;
+    background: var(--cor3);
+}
+
+main{
+    display: flex;
+    margin: 10px;
+    flex: 1 1 100vw;
+    background: var(--cor4);
+}
+
+aside{
+    display: flex;
+    margin: 10px;
+    flex: 1 1 100vw;
+    background: var(--cor5)
+}
+footer{
+    display: flex;
+    margin: 10px;
+    flex: 1 1 100vw;
+    background:rgba(172, 255, 47, 0.414);
+}
