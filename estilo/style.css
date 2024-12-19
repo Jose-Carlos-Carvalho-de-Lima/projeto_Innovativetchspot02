@@ -27,7 +27,7 @@ header {
     border: solid 1.5px;
 }
 
-#mn {
+.menu{
     display: inline-block;
     background-color: lightgray;
     border: 1px solid black;
@@ -36,7 +36,7 @@ header {
     width: 29.9px;
 }
 
-#lg {
+.logo{
     display: inline-block;
     background-color: lightgray;
     border: 1px solid black;
