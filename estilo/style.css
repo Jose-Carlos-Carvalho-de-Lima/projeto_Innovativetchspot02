@@ -27,31 +27,26 @@ header {
     border: solid 1.5px;
 }
 
-div#mn {
-    width: 60px;
+#mn {
+    display: inline-block;
+    background-color: lightgray;
+    border: 1px solid black;
+    text-align: center;
+    height: 20px;
+    width: 29.9px;
+}
+
+#lg {
+    display: inline-block;
+    background-color: lightgray;
+    border: 1px solid black;
+    text-align: center;
     height: 30px;
-    position: relative;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    text-align: center;
-    background-color: white;
+    margin-left: 20px;
+    
 }
 
-div#lg {
-    width: 100px;
-    height: 50px;
-    position: relative;
-    margin-top: -40px;
-    margin-left: 170px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    text-align: center;
-    background-color: white;
-}
-
-div#pq {
+#pq {
     width: 400px;
     height: 30px;
     position: relative;
@@ -63,7 +58,7 @@ div#pq {
     background-color: white;
     border-radius: 60px;
 }
-div#cp {
+#cp {
     width: 60px;
     height: 60px;
     position: relative;
